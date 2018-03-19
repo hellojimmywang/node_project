@@ -1,0 +1,31 @@
+{
+  "name": "node_project",
+  "version": "0.0.0",
+  "description": "just for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellojimmywang/node_project.git"
+  },
+  "keywords": [
+    "fuck",
+    "your",
+    "ass"
+  ],
+  "author": "jimmy.wang",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/hellojimmywang/node_project/issues"
+  },
+  "dependencies": {
+    "log4js": "~0.6.21",
+    "mysql": "~2.4.2",
+    "redis": "~0.12.1",
+    "uuid": "~2.0.1",
+    "memcached": "~2.0.0",
+    "express": "~4.16.3"
+  }
+}
