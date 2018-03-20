@@ -2,7 +2,13 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-	res.send("hello world");
+	console.log("get请求");
+	res.send("hello world get method");
+})
+
+app.post('/',function(req, res) {
+	console.log("post请求");
+	res.send("hello world post method");
 })
 
 var server = app.listen(80, function() {
